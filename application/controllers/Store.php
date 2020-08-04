@@ -18,6 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // Puedes dar de alta usuarios y modificarlos, hay dos roles de usuarios, Vendedor y Administrador.
 
 // Cambia en index.php root development a production si montas la aplicación.
+// PHP 5 - PHP 7, funcona correctamente.
 
 // Si te ayudó en algo y deseas donar para un café, dejo mis direcciones d:
 // XRP: rLSn6Z3T8uCxbcd1oxwfGQN1Fdn5CyGujK DT: 31930983
