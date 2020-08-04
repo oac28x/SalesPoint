@@ -1,6 +1,30 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+// Aplicación desarrollada por Ing. Oscar Aguilar Cruz
+// Contacto: oscar_agrl@outlook.com
+// Sitio:  www.oscaraguilar.info  >Aún trabajando en el.
+
+// Applicación punto de venta para pequeños negocios.
+// Si montas en pequeña intranet, puedes acceder desde diferentes equipos.
+// Puedes hacer uso de ella, modificarla o agregar mejoras; para esto último contactame para que puedas hacer tu pull-request.
+
+// Framework CodeIgniter, Js, JQuery, SQLite Database, 
+// Esta es la clase controlador principal 'Store', el modelo en carpeta models 'PostModel' y vistas en Views, basado con MVC.
+// Originalmente imprime tikets en POS Printer por DB9 conectada al servidor donde corre la aplicacion.
+// Tiene la opcion de dar reportes de productos con condición, puedes revisar todos los productos con cantidad menor a la que indiques.
+// Tiene la opcion de dar reportes de ventas, por usuario y todos, con rango de fechas.
+// Puedes dar de alta artículos y modificarlos.
+// Puedes dar de alta usuarios y modificarlos, hay dos roles de usuarios, Vendedor y Administrador.
+
+// Cambia en index.php root development a production si montas la aplicación.
+
+// Si te ayudó en algo y deseas donar para un café, dejo mis direcciones d:
+// XRP: rLSn6Z3T8uCxbcd1oxwfGQN1Fdn5CyGujK DT: 31930983
+// ETH: 0xdb06ea3ca720e7c94ecf4fcf7a13f8e136c14cc3
+// BTC: 36KCiY7YSNGXiB1wjNdQXNaZXTQLStt34C
+
+
 class Store extends CI_Controller {	
 
 	function __Construct(){
