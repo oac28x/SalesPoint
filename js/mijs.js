@@ -66,11 +66,11 @@ $(document).ready(function(){
 		            type:"POST",
 		            dataType: 'html',
 		            data: {'infoTabla':data,'nombre':nombre,'pago':villulla, 'cambio':cambio, 'total':total},
-		            success:function(html){  
-                        console.log('Succes venta');
-                        console.log(html);          	
+		            success:function(html){           	
 		            	if(html == 'ok'){
-                            console.log(html);
+                            showSnackBar();
+
+                            //Clear data
 		            		$("#tablax").html('');
 		            		$("#pago").val('');
 			                $("#totalPagar").text('Total: $0').attr('value',0);
@@ -193,7 +193,7 @@ $(document).ready(function(){
                         $(".dropdown-menu").show().animate({scrollTop:0}, 200);
                 },
                 error:function(){
-                
+                ///////////
                 }
             });
         }else{
@@ -216,7 +216,7 @@ $(document).ready(function(){
                          $(".dropdown-menu").show().animate({scrollTop:0}, 200);
                   },
                   error:function(){
-                  
+                  //////////////
                   }
               });
           }else{
@@ -443,6 +443,13 @@ function modal3Show(){
     }else{
     $('#myModal3').modal('show');
     }
+}
+
+//SnackBar globalFunction
+showSnackBar = function show(){
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 2500);
 }
 
 //Calcular cambio, globalFunction

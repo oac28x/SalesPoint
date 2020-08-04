@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-<div class="container" id="loging_box">
+<div class="container" style="height: 100%;" id="loging_box">
     <div class="row text-center">  
         <img src=<?php echo base_url("/img/header.png"); ?>>
     </div>

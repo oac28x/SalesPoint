@@ -1,6 +1,9 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 <div class="container">
+	<div class="col-sm-12" style="font-size:20px;background-color:#5C866D;color:#FFF;">
+		<p class="text-center">Administrador</p>
+	</div>
 	<div class="alert alert-success text-center" style="margin-top: 30px;padding-top: 20px;">
 		<div class="row">
 			<div class="col-md-12">

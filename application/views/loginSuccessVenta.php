@@ -1,7 +1,10 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-<div class="container">
-	<div class="alert alert-success text-center" style="margin-top: 30px;padding-top: 20px;">
+<div class="container alert-success" style="height: 100%">
+	<div class="row" style="font-size:20px;background-color:#5C866D;color:#FFF;">
+		<p class="text-center">Vendedor</p>
+	</div>
+	<div class="alert  text-center" style="padding-top: 20px;">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-8 col-sm-12" style="padding-top: 10px; padding-bottom: 10px; font-size: 16px;">
@@ -85,5 +88,7 @@
 				</form> 
 			</div>
 		</div>
+		<p class="footer text-left">Vista creada en: <strong>{elapsed_time}</strong> segundos.</p>
 	</div>
 </div>
+<div id="snackbar">Venta completa.</div>
